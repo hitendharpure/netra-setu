@@ -1,0 +1,20 @@
+# app.yaml: Arduino App Lab configuration for Edge Impulse OCR Demo
+#
+# This application uses Edge Impulse model cascading (detector + recognizer)
+# to perform real-time OCR via a Flask web interface.
+#
+# To run:
+#   arduino-app-cli app start .
+#   OR: source .venv/bin/activate && python3 python/main.py
+#
+# Access the web UI at http://<device-ip>:5001
+
+# app.yaml: Arduino App Lab configuration manifest
+# This application uses Edge Impulse model cascading 
+# to perform real-time text detection and recognition.
+
+name: "Netra-Setu OCR"
+description: "Real-time OCR using Edge Impulse model cascading (detector + recognizer) for Project Netra Setu"
+icon: "\U0001F50D"
+ports: [5001]
+bricks: []
