@@ -108,3 +108,12 @@ Place any printed text in front of the connected webcam. The system will autonom
 **Firmware for Real-Time Tactile Braille Translation and Servo Multiplexing (`netrasetu_bridge.ino`)**  
 Copyright (c) 2026 Hiten Dharpure. All rights reserved.  
 Software and Firmware Architecture registration filed with the Copyright Office, Government of India.
+
+🔓 **Open Source Software:** The software, AI pipeline, and C++ firmware in this repository are officially open-source and distributed under the GNU GPLv3 License. See the `LICENSE` file for details. 
+
+*(Note: The open-source license applies ONLY to the software/codebase, not the 3D STL models).*
+
+---
+
+## 🙏 Acknowledgements & Attributions
+* **3D Hardware Base:** The 3D printed Braille cell mechanism (matrix box, pins, and holder) is a modified, custom-edited derivative based on the original mechanical design from the [BrailleBot project by Mukesh Sankhla](https://github.com/MukeshSankhla/BrailleBot/). The STLs were heavily adapted to house the specific servo multiplexing array and custom hardware used in Netra-Setu.
