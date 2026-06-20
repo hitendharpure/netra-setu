@@ -105,9 +105,13 @@ Place any printed text in front of the connected webcam. The system will autonom
 ---
 
 ## ©️ Copyright & Licensing
+**Autonomous Edge-AI Vision Pipeline for Real-Time Optical Character Recognition and Tensor Alignment (`headless.py`)** 
+Copyright (c) 2026 Hiten Dharpure. All rights reserved. 
+Software Architecture registration filed with the Copyright Office, Government of India.
+
 **Firmware for Real-Time Tactile Braille Translation and Servo Multiplexing (`netrasetu_bridge.ino`)**  
 Copyright (c) 2026 Hiten Dharpure. All rights reserved.  
-Software and Firmware Architecture registration filed with the Copyright Office, Government of India.
+Firmware Architecture registration filed with the Copyright Office, Government of India.
 
 🔓 **Open Source Software:** The software, AI pipeline, and C++ firmware in this repository are officially open-source and distributed under the GNU GPLv3 License. See the `LICENSE` file for details. 
 
