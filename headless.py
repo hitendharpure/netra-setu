@@ -1,4 +1,14 @@
 #!/usr/bin/env python3
+# ==============================================================================
+# Title: Autonomous Edge-AI Vision Pipeline for Real-Time Optical Character Recognition and Tensor Alignment
+# Author: Hiten Dharpure
+# Created: June 2026
+# Copyright (c) 2026 Hiten Dharpure. All Rights Reserved.
+#
+# This software and its underlying algorithms are the proprietary intellectual 
+# property of the author. Unauthorized copying, modification, distribution, 
+# or use of this file, via any medium, is strictly prohibited.
+# ==============================================================================
 # Project Netra-Setu: Headless Autonomous Vision Pipeline (Phase 1 Live)
 
 # pyrefly: ignore [missing-import]
