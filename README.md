@@ -25,6 +25,8 @@ Aligning with the **Viksit Bharat** vision, this project creates an accessible, 
 * **Vision Sensor:** 1080p USB Webcam
 * **Actuation:** 6x SG90 Micro-Servos
 * **Hardware Structure:** Custom 3D Printed Braille Cell & Enclosure (PLA/PETG)
+* **Power & Isolation:** 4x 18650 Li-ion Cells (2000mAh), 2-Cell Holder, 2x SPST Toggle Switches, LM2596 DC-DC Buck Converter, and Mini 360 Step-Down Buck Converter (isolates high-current servo spikes from logic power to prevent brownouts)
+* **Connectivity:** Custom Spliced USB Type-C OTG Cable
 
 ### 🖨️ 3D Printing Instructions
 To replicate the physical Braille cell, navigate to the `/3D_Models` directory.
@@ -118,6 +120,12 @@ Firmware Architecture registration filed with the Copyright Office, Government o
 *(Note: The open-source license applies ONLY to the software/codebase, not the 3D STL models).*
 
 ---
+
+## 🔒 Privacy by Design
+All camera capture and OCR inference run **100% offline in local RAM** on the Arduino UNO Q. No images or scanned text are stored permanently or sent to any external server.
+
+## ⚠️ Known Limitations & v2 Roadmap
+* **Current Limitations:** Optimal OCR accuracy requires flat printed text and even ambient lighting; SG90 micro-servos produce mild mechanical noise and slower character refresh rates than commercial piezoelectric Braille displays.
 
 ## 🙏 Acknowledgements & Attributions
 * **3D Hardware Base:** The 3D printed Braille cell mechanism (matrix box, pins, and holder) is a modified, custom-edited derivative based on the original mechanical design from the [BrailleBot project by Mukesh Sankhla](https://github.com/MukeshSankhla/BrailleBot/). The STLs were heavily adapted to house the specific servo multiplexing array and custom hardware used in Netra-Setu.
